@@ -1,0 +1,40 @@
+# Source files (we publish dist/)
+credentials/
+nodes/
+test/
+scripts/
+
+# Config files
+.eslintrc.js
+.prettierrc
+tsconfig.json
+jest.config.js
+gulpfile.js
+
+# Development
+.git/
+.github/
+.vscode/
+.idea/
+
+# Dependencies
+node_modules/
+
+# Test
+coverage/
+*.test.ts
+*.spec.ts
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env*
+
+# Temporary
+*.tmp
+*.temp
